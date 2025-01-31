@@ -19,8 +19,16 @@ Before you begin, ensure you have the following installed on your local machine:
 ## Installation
 
 ### 1. Clone the repository
-
-```bash
 git clone https://github.com/HowlLion/EtherwalletFinderr.git
 cd EtherwalletFinder
+
+###2. Install Dependencies
+To install the required Python libraries, run:
+pip install -r requirements.txt
+
+###Usage
+1. Run the Script
+Once you’ve set up the environment and replaced the API key, you can run the script using the following command:
+python wallet_balance_checker.py
+
 
